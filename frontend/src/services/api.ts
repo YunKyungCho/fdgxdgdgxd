@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Todo } from '../App';
 
-const API_BASE_URL = 'http://localhost:3000';
+const API_BASE_URL = 'https://todolist-qk2k.onrender.com/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
